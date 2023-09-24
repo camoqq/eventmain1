@@ -1,0 +1,23 @@
+ 1.created card layout using antdesign. I installed antdesign through
+ the terminal and then hardcoded the json of the card. i created the 
+ routing of the 2 pages.
+
+ 2.created layout of the homepage. I used css styles to create the layout 
+ by adding 5 columns of cards per row.
+
+ 3.I added the events menu on the left side of the page.
+
+ 4.created the context of the website. I generated the fake data with the 
+ faker json and then implemented the data managment of the page with the
+ useContext Hook.
+ 
+5.I tested the Events component to see if the text was being displayed
+in the page.
+
+6.Added the layout of the "events to attend page" and made a different card for it
+
+7.added the button "events" to go to the next page 
+
+8.added the functionality of the "past events" checkbox so that 
+the user have the ability to pick in between events available and passes events
+

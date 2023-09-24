@@ -1,13 +1,121 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+/* HomeCSS */
+.bHome {
+  display: flex;
+}
+.home {
+  background-color: aliceblue;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: center;
+}
+
+/* CardCompCss */
+.card {
+  margin: 10px 10px 100px 10px;
+  height: 100%;
+}
+h2 {
+  color: rgb(239, 89, 19);
+}
+h3 {
+  color: rgb(67, 64, 95);
+}
+.one {
+  background-color: aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid black;
+}
+.two {
+  margin: 20px 10px 20px 70px;
+  width: 40%;
+}
+/* EventsCss */
+.events {
+  background-color: rgb(67, 64, 95);
+  color: orange;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 20%;
+  margin: 10px;
+  height: 52vh;
+  border-radius: 5px;
+}
+.goto {
+  color: "orange";
+  text-decoration: "none";
+  border: "1px solid orange";
+  padding: "5px";
+  margin-bottom: "10px";
+  border-radius: "10px";
+}
+.goto:hover {
+  color: white;
+}
+/* selected css */
+.par {
+  display: flex;
+  justify-content: center;
+}
+.span1 {
+  position: absolute;
+  top: 35px;
+  right: 15px;
+}
+.eve {
+  background-color: rgb(67, 64, 95);
+}
+.eve1 {
+  border-top: 5px solid rgb(67, 64, 95);
+}
+h1 {
+  text-align: center;
+}
+.one1 {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 5px solid rgb(67, 64, 95);
+}
+.two2 {
+  margin: 20px 10px 20px 70px;
+  width: 40%;
+  background-color: red;
+}
+.p {
+  background-color: aliceblue;
+}
+
+.c {
+  display: flex;
+}
+
+@media (max-width: 550px) {
+  .home {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .one {
+    display: flex;
+    justify-content: center;
+  }
+  .two2 {
+    width: 70%;
+    margin: 1.3rem;
+    background-color: aliceblue;
+  }
 }
